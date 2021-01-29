@@ -4,6 +4,7 @@ import tier.one.module.external.Tier1ModExternal;
 import tier.one.module.internal.Tier1ModInternal;
 import tier.one.non.module.external.Tier2NonModExternal;
 import tier.one.non.module.internal.Tier2NonModInternal;
+import tier.two.module.module.internal.Tier2ModModInternal;
 import tier.two.module.non.module.external.Tier2ModNonModExternal;
 import tier.two.module.non.module.internal.Tier2ModNonModInternal;
 import tier.two.non.module.module.external.Tier2NonModModExternal;
@@ -23,7 +24,7 @@ public class TheBeginning {
         //Test Internal tier 2 module-module
         new tier.two.module.module.external.Tier2ModModExternal().getExternalValue();
         //Test external tier 2 module-module
-        new tier.two.module.module.internal.Tier2NodModInternal().getInternalValue();
+        new Tier2ModModInternal().getInternalValue();
 
         //Test Internal tier 2 module-non-module
         new Tier2ModNonModInternal().getInternalValue();

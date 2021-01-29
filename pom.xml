@@ -16,7 +16,8 @@
         <module>tier-two-non-module-non-module-dependency</module>
         <module>tier-one-non-module-dependency</module>
 
-        <module>almightyApp</module>
+        <module>tier-zero-module</module>
+        <module>tier-zero-non-module</module>
     </modules>
     <packaging>pom</packaging>
 
